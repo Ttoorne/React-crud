@@ -1,0 +1,83 @@
+body {
+  background-color: black;
+}
+
+#root {
+  color: #fff;
+  font-family: Candara;
+}
+.add {
+  margin: auto;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px;
+  border-radius: 30px;
+  padding: 15px;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.add-title {
+  color: black;
+  font-size: 32px;
+  text-align: center;
+}
+
+input {
+  font-size: 18px;
+}
+
+.name {
+  width: 50%;
+  margin: auto;
+  border-radius: 18px;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.surName {
+  width: 50%;
+  margin: auto;
+  border-radius: 18px;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.phone {
+  width: 50%;
+  margin: auto;
+  border-radius: 18px;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.email {
+  width: 50%;
+  margin: auto;
+  border-radius: 18px;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+.add-btn {
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  width: 50%;
+  margin: auto;
+  padding: 15px 0;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background-color: #107c03;
+}
+
+.add-btn:hover {
+  filter: brightness(70%);
+  transition: 0.7s;
+}
